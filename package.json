@@ -1,0 +1,21 @@
+{
+  "name": "shopify-hooks",
+  "version": "1.0.0",
+  "description": "Shopify js-buy-sdk with React Hooks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Dan Billson",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.41",
+    "@types/shopify-buy": "^2.10.1",
+    "react": "^16.13.1",
+    "shopify-buy": "^2.10.0"
+  }
+}
